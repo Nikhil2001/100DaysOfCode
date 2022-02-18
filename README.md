@@ -1,3 +1,3 @@
 # 100 days of golang
-Go lnaguage Features
+Go language Features
 Data Structures And Algorithms in Golang
