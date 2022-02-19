@@ -17,7 +17,7 @@ start:
 		case i%2 == 1 && len(a) < 10:
 			i++
 			goto B
-		case len(a) > 10:
+		case len(a) == 10:
 			break start
 		}
 
@@ -34,5 +34,5 @@ start:
 
 /*
 nikhil@nikhil:~/job/100DaysOfCode/language/day1$ go run goto.go
-bababababaa
+bababababa
 */
