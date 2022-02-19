@@ -41,7 +41,7 @@ func main() {
 	}
 
 	for k := 0; k < 5; {
-		fmt.Println("For loop with no last statement, iteration :", i)
+		fmt.Println("For loop with no last statement, iteration :", k)
 		k += 2
 	}
 
@@ -55,11 +55,11 @@ Iteration: 1
 Iteration: 2
 Iteration: 3
 Iteration: 4
-Traditional Iteration: 0
-Traditional Iteration: 1
-Traditional Iteration: 2
-Traditional Iteration: 3
-Traditional Iteration: 4
+Traditional For Loop, Iteration: 0
+Traditional For Loop, Iteration: 1
+Traditional For Loop, Iteration: 2
+Traditional For Loop, Iteration: 3
+Traditional For Loop, Iteration: 4
 For Loop Iteration: 0
 For Loop Iteration: 1
 For Loop Iteration: 2
@@ -77,8 +77,8 @@ For loop with no initialization,Iteration: 1
 For loop with no initialization,Iteration: 2
 For loop with no initialization,Iteration: 3
 For loop with no initialization,Iteration: 4
-For loop with no last statement, iteration : 5
-For loop with no last statement, iteration : 5
-For loop with no last statement, iteration : 5
+For loop with no last statement, iteration : 0
+For loop with no last statement, iteration : 2
+For loop with no last statement, iteration : 4
 */
 
