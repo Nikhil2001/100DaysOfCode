@@ -18,3 +18,11 @@ func main() {
 	fmt.Printf("%+v \n",cricketer2)
 	fmt.Printf("%v \n",cricketer3)
 }
+
+
+/* OUTPUT
+nikhil@nikhil:~/job/100DaysOfCode/language/day1$ go run struct.go 
+{Venky Iyer 4 329 7}
+{name:Virat kohli matches:97 runs:3296 wickets:0} 
+{Ishan Kishan 9 296 0} 
+*/
