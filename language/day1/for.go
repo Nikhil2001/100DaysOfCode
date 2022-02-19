@@ -14,7 +14,7 @@ func main() {
 	//traditional For loop
 
 	for i := 0; i < 5; i++ {
-		fmt.Println("Traditional Iteration:", i)
+		fmt.Println("Traditional For Loop, Iteration:", i)
 	}
 
 	// infinite for loop but breaks on condition
