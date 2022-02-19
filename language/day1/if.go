@@ -25,9 +25,7 @@ func main() {
 		fmt.Println("a is", 0)
 	}
 
-	dirx := "North"
-
-	if dirx == "East" {
+	if dirx := "North"; dirx == "East" {
 		fmt.Println("direction is East")
 	} else if dirx == "west" {
 		fmt.Println("direction is West")
@@ -40,7 +38,7 @@ func main() {
 }
 
 /* OUTPUT
-nikhil@nikhil:~/job/100DaysOfCode/language/day1$ go run if.go 
+nikhil@nikhil:~/job/100DaysOfCode/language/day1$ go run if.go
 c is true
 31 is odd
 a is 0
