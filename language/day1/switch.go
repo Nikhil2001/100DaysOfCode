@@ -69,14 +69,25 @@ func main() {
 		fmt.Println("Not top 3, but ranks will not indicate overall hardwork or talent!")
 	}
 
+	var value interface{} = true
+	switch value.(type) {
+	case string:
+		fmt.Println(value, "is string type")
+	case int:
+		fmt.Println(value, "is int type")
+	default:
+		fmt.Println(value, "is neither string nor int type")
+	}
+
 }
 
 /*OUTPUT
-nikhil@nikhil:~/job/100DaysOfCode/language/day1$ go run switch.go 
+nikhil@nikhil:~/job/100DaysOfCode/language/day1$ go run switch.go
 -1 is negative
 -1 is negative
 Not top 3, but ranks will not indicate overall hardwork or talent!
 Top Ranker,Secured  2
 Top 3
 just missed Top 3
+true is neither string nor int type
 */
