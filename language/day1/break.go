@@ -28,7 +28,7 @@ loop:
 		for j := 0; j < i; j++ {
 			fmt.Print(j, " ")
 			if j == 2 {
-				break loop2 // breaks inside "loop", same as just break here
+				break loop2 // breaks inside "loop2", same as just break here
 			}
 		}
 		fmt.Println()
