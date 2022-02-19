@@ -18,8 +18,6 @@ func main() {
 	fmt.Printf("%+v \n",cricketer2)
 	fmt.Printf("%v \n",cricketer3)
 }
-
-
 /* OUTPUT
 nikhil@nikhil:~/job/100DaysOfCode/language/day1$ go run struct.go 
 {Venky Iyer 4 329 7}
