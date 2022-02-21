@@ -12,7 +12,7 @@ func main() {
 		fmt.Println(a, "is negative")
 	}
 
-	// same with switch
+	// same example with switch
 	switch {
 	case a >= 0:
 		fmt.Println(a, "is non negative")
