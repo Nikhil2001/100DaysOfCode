@@ -8,5 +8,6 @@ import (
 func main() {
 
 	fmt.Println(calculator.Add(2,4))
+	fmt.Println(calculator.Mod(2,4))
 
 }
