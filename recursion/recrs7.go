@@ -23,3 +23,15 @@ func main() {
 	arr := []int{3, 1, 2}
 	subsequence(0, arr)
 }
+
+/*
+nikhil@nikhil:~/job/100DaysOfCode/recursion$ go run recrs7.go 
+[3 1 2]
+[3 1]
+[3 2]
+[3]
+[1 2]
+[1]
+[2]
+[]
+nikhil@nikhil:~/job/100DaysOfCode/recursion$ */
