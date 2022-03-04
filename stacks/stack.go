@@ -84,6 +84,7 @@ func main() {
 nikhil@nikhil:~/job/100DaysOfCode/stacks$ go run stack.go
 
 1 2 3
+3
 3 <nil>
 1 2 3
 3 <nil>
