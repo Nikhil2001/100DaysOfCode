@@ -44,6 +44,13 @@ func (s *stack) IsEmpty() bool {
 	return false
 }
 
+func (s *stack) Size() int {
+	if s.top == -1 {
+		return 0
+	}
+	return s.top + 1
+}
+
 func (s *stack) Show() {
 	for _, v := range s.arr {
 		fmt.Print(v, " ")
@@ -58,6 +65,7 @@ func main() {
 	s.Push(2)
 	s.Push(3)
 	s.Show()
+	fmt.Println(s.Size())
 	fmt.Println(s.Top())
 	s.Show()
 	fmt.Println(s.Pop())
