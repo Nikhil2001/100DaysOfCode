@@ -59,7 +59,8 @@ func main() {
 	s.Push(3)
 	s.Show()
 	fmt.Println(s.Top())
-	s.Pop()
+	s.Show()
+	fmt.Println(s.Pop())
 	s.Show()
 	fmt.Println(s.IsEmpty())
 
@@ -70,3 +71,19 @@ func main() {
 	fmt.Println(s.Pop())
 	fmt.Println(s.IsEmpty())
 }
+
+/*
+nikhil@nikhil:~/job/100DaysOfCode/stacks$ go run stack.go
+
+1 2 3
+3 <nil>
+1 2 3
+3 <nil>
+1 2
+false
+true
+-1 invalid Top, Empty stack!
+0 invalid pop, cannot pop on Empty stack!
+true
+
+*/
