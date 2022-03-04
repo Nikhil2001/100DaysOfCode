@@ -55,7 +55,7 @@ func (s *stack) Show() {
 	for _, v := range s.arr {
 		fmt.Print(v, " ")
 	}
-	defer fmt.Printf("\n")
+	fmt.Printf("\n")
 }
 
 func main() {
