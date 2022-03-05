@@ -16,7 +16,7 @@ func subsequence(index int, arr []int) {
 	subsequence(index+1, arr)
 	arr1 = arr1[:len(arr1)-1]
 	subsequence(index+1, arr)
-	
+
 }
 
 func main() {
@@ -25,7 +25,7 @@ func main() {
 }
 
 /*
-nikhil@nikhil:~/job/100DaysOfCode/recursion$ go run recrs7.go 
+nikhil@nikhil:~/job/100DaysOfCode/recursion$ go run recrs7.go
 [3 1 2]
 [3 1]
 [3 2]
